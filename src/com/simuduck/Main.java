@@ -2,6 +2,7 @@ package com.simuduck;
 
 /**
  * Created by MacBookRP on 09.02.16.
+ * legt einige Enten an
  */
 public class Main {
     public static void main(String[] args) {
