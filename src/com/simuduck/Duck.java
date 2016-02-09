@@ -13,8 +13,10 @@ public abstract class Duck {
     }
 
 
-    public void quack() {
-        quackBehaviour.quack();
+    public String quack() {
+        final String quack = quackBehaviour.quack();
+        System.out.println(quack);
+        return quack;
     }
 
     public void swim() {
