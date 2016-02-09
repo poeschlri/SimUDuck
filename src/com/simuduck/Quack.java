@@ -5,7 +5,7 @@ package com.simuduck;
  */
 public class Quack implements QuackBehaviour {
     @Override
-    public void quack() {
-        System.out.println("quack");
+    public String quack() {
+        return "quack";
     }
 }
