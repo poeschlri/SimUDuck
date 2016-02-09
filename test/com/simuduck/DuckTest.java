@@ -12,6 +12,8 @@ public class DuckTest {
         MallardDuck mallardDuck = new MallardDuck();
         Assert.assertEquals("quack", mallardDuck.quack());
         Assert.assertEquals("fly", mallardDuck.fly());
+        Assert.assertEquals("swim", mallardDuck.swim());
+        Assert.assertEquals("Mallard Duck", mallardDuck.display());
 
     }
 
@@ -20,6 +22,8 @@ public class DuckTest {
         RedHeadDuck redHeadDuck = new RedHeadDuck();
         Assert.assertEquals("quack", redHeadDuck.quack());
         Assert.assertEquals("fly", redHeadDuck.fly());
+        Assert.assertEquals("swim", redHeadDuck.swim());
+        Assert.assertEquals("Red Head Duck", redHeadDuck.display());
     }
 
     @Test
@@ -27,5 +31,7 @@ public class DuckTest {
         RubberDuck rubberDuck = new RubberDuck();
         Assert.assertEquals("squeak", rubberDuck.quack());
         Assert.assertEquals("-", rubberDuck.fly());
+        Assert.assertEquals("swim", rubberDuck.swim());
+        Assert.assertEquals("Rubber Duck", rubberDuck.display());
     }
 }

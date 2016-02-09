@@ -9,8 +9,10 @@ public class MallardDuck extends Duck {
     }
 
     @Override
-    public void display() {
-        System.out.println("display");
+    public String display() {
+        final String display = "Mallard Duck";
+        System.out.println(display);
+        return display;
     }
 
 

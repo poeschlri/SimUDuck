@@ -20,8 +20,10 @@ public abstract class Duck {
         return quack;
     }
 
-    public void swim() {
-        System.out.println("swim");
+    public String swim() {
+        final String swim = "swim";
+        System.out.println(swim);
+        return swim;
 
     }
 
@@ -32,6 +34,6 @@ public abstract class Duck {
         return fly;
     }
 
-    public abstract void display();
+    public abstract String display();
 
 }

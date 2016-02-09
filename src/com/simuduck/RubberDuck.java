@@ -11,8 +11,10 @@ public class RubberDuck extends Duck {
     }
 
     @Override
-    public void display() {
-        System.out.println("display");
+    public String display() {
+        final String display = "Rubber Duck";
+        System.out.println(display);
+        return display;
     }
 
 
