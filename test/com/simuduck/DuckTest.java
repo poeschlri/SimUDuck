@@ -9,13 +9,23 @@ import org.junit.Test;
 public class DuckTest {
     @Test
     public void testMallardDuck() {
-        MallardDuck duck = new MallardDuck();
-        Assert.assertEquals("quack", duck.quack());
+        MallardDuck mallardDuck = new MallardDuck();
+        Assert.assertEquals("quack", mallardDuck.quack());
+        Assert.assertEquals("fly", mallardDuck.fly());
+
+    }
+
+    @Test
+    public void testRedHeadDuck() {
+        RedHeadDuck redHeadDuck = new RedHeadDuck();
+        Assert.assertEquals("quack", redHeadDuck.quack());
+        Assert.assertEquals("fly", redHeadDuck.fly());
     }
 
     @Test
     public void testRubberDuck() {
-        RubberDuck duck = new RubberDuck();
-        Assert.assertEquals("squeak", duck.quack());
+        RubberDuck rubberDuck = new RubberDuck();
+        Assert.assertEquals("squeak", rubberDuck.quack());
+        Assert.assertEquals("-", rubberDuck.fly());
     }
 }
